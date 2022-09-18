@@ -1,5 +1,4 @@
 *{
-    overflow: hidden;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,6 +10,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.container{
+    overflow: hidden;
 }
 body{
     background-color: rgb(15, 15, 15);
@@ -26,4 +28,17 @@ body{
     right: 0;
     bottom: 0;
     z-index: -9999;
+}
+img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.2s;
 }
