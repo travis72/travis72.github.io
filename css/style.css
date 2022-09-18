@@ -11,34 +11,57 @@
     -ms-user-select: none;
     user-select: none;
 }
-.container{
+.index{
     overflow: hidden;
-}
-body{
     background-color: rgb(15, 15, 15);
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     color: whitesmoke;
     z-index: 9999;
 }
-#particles-div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -9999;
+.about{
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 9999;
 }
-img {
+.spotify{
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 9999;
+}
+.kitty{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 9999;
+}
+.kittyimg {
+    border-radius: 150px;
     width: 25%;
     height: 25%;
+    opacity: 1;
     object-fit: cover;
     object-position: bottom;
     padding: 5px;
+    transition: 0.3s;
 }
 
-img:hover {
+.kittyimg:hover {
+    border-radius: 25px;
     cursor: pointer;
-    opacity: 0.5;
-    transition: 0.2s;
+    opacity: 1;
+    transition: 0.3s;
+}
+#particles-div{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -9999;
 }
