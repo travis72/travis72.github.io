@@ -34,6 +34,9 @@ a { color: inherit; }
 .ico-steam:hover { text-shadow: 0 0 6px rgba(255, 255, 255, .6); }
 
 .kittyy {color: rgb(230, 230, 230); z-index: 9999; }
+.kittyy:hover { text-shadow: 0 0 6px rgba(255, 255, 255, 1); }
+.kittyyy {color: rgb(230, 230, 230); z-index: 9999; font-weight:800; font-size: xx-large; }
+.kittyyy:hover { text-shadow: 0 0 6px rgba(255, 255, 255, 1); }
 .kitty {text-align: center; color: rgb(230, 230, 230); z-index: 9999; }
 .kittyimg { border-radius: 150px; width: 25%; height: 25%; opacity: 1;
     object-fit: cover; object-position: bottom; padding: 5px; transition: 0.3s; }
